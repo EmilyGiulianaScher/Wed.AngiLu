@@ -1,0 +1,78 @@
+@import "reset","variables", "carrousel", "cards", "temp", "imagenIg", "aside", "botonetes", "copas", "musica", "parallax" ;
+
+
+
+
+body {
+  
+  min-height: 100vh;
+  box-sizing: border-box;
+  font-family: 'Tenor Sans', sans-serif;
+  background-color: rgb(238, 219, 205);
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  h2,
+  h3 {
+
+    font-size: 3rem;
+  }
+
+  .Temporizador {
+    background-color: $colorcitoLindo;
+    align-items: center;
+
+  }
+
+  .TemporizadorTabla {
+    background-color: rgb(179, 255, 0);
+  }
+ 
+}
+
+main {
+  h3 {
+    color: $colorTitulos;
+  }
+
+}
+
+
+
+
+
+#page-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+
+
+
+
+
+
+
+// Estilos para las cajas
+@media (min-width: 900px) {
+  .mi-sección {
+    display: flex;
+    /* Cambio a flexbox para alinear las cajas */
+    justify-content: space-between;
+    /* Distribuir las cajas con espacio entre ellas */
+    align-items: flex-start;
+    /* Alinear las cajas en la parte superior */
+  }
+
+  .Caja {
+    background-color: rgb(232, 213, 201);
+    margin: 0.6rem;
+    flex: 1;
+    /* Ocupar espacio igual entre las cajas */
+    margin-left: auto;
+    width: 33%;
+  }
+
+
+}

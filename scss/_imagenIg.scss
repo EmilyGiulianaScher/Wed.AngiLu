@@ -1,0 +1,69 @@
+.imagenInstagram {
+    position: relative;
+    background-image: url(../imagenes/20.jpg);
+    text-align: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+    margin-bottom: 1rem;
+    padding-bottom: 2rem;
+
+    .ANGILU {
+        font-size: 3rem;
+        color: $colorcitoLindo;
+        margin-bottom: 25%;
+        padding-top: 2rem;
+        text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.5);
+    }
+    .textoContenedor {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+         
+        @media (max-width: 1000px) {
+            flex-direction: column; 
+            align-items: flex-end; 
+            margin-left: 60%;
+        }
+    }
+    .p-container {
+        flex: 1;
+        padding: 0 1rem; /* Espacio entre elementos */
+        
+    }
+
+    .ptexto {
+        font-size: 2.5rem;
+        color: rgb(255, 255, 255);
+        background-color: rgba(236, 218, 207, 0.162);
+        line-height: 1.5;
+        padding: 1rem;
+        border-radius: 20px;
+        margin: 0.5rem;
+        text-align: center;
+        text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.7);
+        box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    }
+    .InstagramBoton {
+        margin-top: 10%;
+    }
+    .izquierdo {
+        margin-left: 0.5rem;
+    }
+    .derecho {
+        margin-right: 0.5rem;
+    }
+
+    @media (max-width: 700px) {
+        .ptexto {
+            font-size: 1.2rem;
+        }
+    }
+    @media (max-width: 352) {
+        .ptexto {
+            font-size: 0.9rem; /* Ajusta el tamaño de fuente para dispositivos móviles */
+        }
+    }
+}

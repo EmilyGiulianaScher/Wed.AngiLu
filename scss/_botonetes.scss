@@ -1,0 +1,23 @@
+button{
+background-color: rgb(197, 143, 114);
+box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+cursor:pointer;
+transition: transform 1000ms;
+padding: 1em 2em;
+
+
+&:hover, &:focus-visible{
+    transform: translateY(-0.55rem);
+    transition: transform 500ms;
+    background-color: rgb(247, 219, 208);
+    color: rgb(118, 71, 46);
+    
+}
+a{
+    text-decoration: none;
+    color: rgb(118, 71, 46);;
+  
+}
+
+
+}

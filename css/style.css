@@ -1,0 +1,395 @@
+@charset "UTF-8";
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+
+img,
+picture,
+svg,
+video {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+textarea,
+button,
+select {
+  font: inherit;
+}
+
+html {
+  color-scheme: dark light;
+}
+
+.CarruselCasamiento {
+  width: 100%;
+}
+.CarruselCasamiento h1 {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+.CarruselCasamiento .CarouselImg {
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  box-shadow: inset 0px 120px 60px rgba(0, 0, 0, 0.3), inset 0px -120px 60px rgba(0, 0, 0, 0.3);
+}
+.CarruselCasamiento .bg-img-1 {
+  background-image: url(../imagenes/12.jpg);
+  background-position: 50%;
+}
+.CarruselCasamiento .bg-img-2 {
+  background-image: url(../imagenes/15.jpg);
+  background-position: 59%;
+}
+.CarruselCasamiento .bg-img-3 {
+  background-image: url(../imagenes/19.jpg);
+  background-position: 50%;
+}
+.CarruselCasamiento .carousel-caption {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* Distribuir elementos verticalmente */
+  height: 100%; /* Para que ocupe todo el espacio vertical */
+  padding: 2rem 1rem; /* Ajustar el espacio vertical y horizontal */
+}
+.CarruselCasamiento .carousel-caption h1 {
+  margin: 0; /* Eliminar margen para el título */
+  font-size: 30px;
+  line-height: 1.5rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+.CarruselCasamiento .carousel-caption .tectocarro15dic23 {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centrar horizontalmente */
+  margin-bottom: 0.5rem; /* Espacio entre elementos */
+  text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.5);
+}
+@media (min-width: 768px) {
+  .CarruselCasamiento .carousel-caption .pabajo {
+    margin-top: 70%;
+  }
+}
+.CarruselCasamiento .espacioAndes {
+  margin-top: 0.3rem;
+  text-align: center; /* Centrar horizontalmente */
+  text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.5);
+}
+
+/* Estilos para los botones de control previo y siguiente */
+.carousel-control-prev,
+.carousel-control-next {
+  background-color: transparent !important;
+}
+
+.botoncarro {
+  box-shadow: none;
+}
+
+.emoji {
+  color: rgb(195, 135, 102);
+  border-color: rgba(255, 239, 230, 0.249);
+  margin-bottom: 10px;
+}
+
+.emoji:hover {
+  color: rgb(255, 234, 223);
+  background-color: rgb(226, 182, 158);
+}
+
+.Caja {
+  background: linear-gradient(rgb(226, 182, 158), rgb(213, 159, 126));
+  padding: 2rem;
+  margin-bottom: 20px;
+  text-align: center;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+}
+.Caja h2 {
+  color: rgb(250, 235, 229);
+  text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.468);
+}
+
+button {
+  border-radius: 3px;
+  padding: 10px;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.3);
+  border-style: none;
+  margin-top: 20px;
+}
+
+button:hover {
+  color: bisque;
+}
+
+td {
+  border-style: solid;
+  border-color: #ffffff;
+  border-width: 0px;
+  color: #ffffff;
+  padding: 0px;
+  font-size: 30px;
+  font-family: Dancing Script Normal;
+  text-align: center;
+}
+
+th {
+  border-width: 0px;
+  color: #ffffff;
+  text-align: center;
+  padding: 0px;
+  font-size: 12px;
+  font-family: Monotype Corsive;
+}
+
+.imagenInstagram {
+  position: relative;
+  background-image: url(../imagenes/20.jpg);
+  text-align: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
+  margin-bottom: 1rem;
+  padding-bottom: 2rem;
+}
+.imagenInstagram .ANGILU {
+  font-size: 3rem;
+  color: rgb(191, 156, 136);
+  margin-bottom: 25%;
+  padding-top: 2rem;
+  text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.5);
+}
+.imagenInstagram .textoContenedor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+@media (max-width: 1000px) {
+  .imagenInstagram .textoContenedor {
+    flex-direction: column;
+    align-items: flex-end;
+    margin-left: 60%;
+  }
+}
+.imagenInstagram .p-container {
+  flex: 1;
+  padding: 0 1rem; /* Espacio entre elementos */
+}
+.imagenInstagram .ptexto {
+  font-size: 2.5rem;
+  color: rgb(255, 255, 255);
+  background-color: rgba(236, 218, 207, 0.162);
+  line-height: 1.5;
+  padding: 1rem;
+  border-radius: 20px;
+  margin: 0.5rem;
+  text-align: center;
+  text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.7);
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+.imagenInstagram .InstagramBoton {
+  margin-top: 10%;
+}
+.imagenInstagram .izquierdo {
+  margin-left: 0.5rem;
+}
+.imagenInstagram .derecho {
+  margin-right: 0.5rem;
+}
+@media (max-width: 700px) {
+  .imagenInstagram .ptexto {
+    font-size: 1.2rem;
+  }
+}
+@media (max-width: 352) {
+  .imagenInstagram .ptexto {
+    font-size: 0.9rem; /* Ajusta el tamaño de fuente para dispositivos móviles */
+  }
+}
+
+aside {
+  background: linear-gradient(rgb(226, 182, 158), rgb(207, 144, 105));
+  padding-top: 10.5rem;
+  padding-bottom: 6rem;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
+  opacity: 70%;
+  margin-bottom: 20px;
+}
+aside h2 {
+  display: inline-block;
+  color: rgb(250, 235, 229);
+}
+aside .AsistenciaBoton {
+  margin-top: 20px;
+  background: rgb(197, 143, 114);
+}
+aside .emoji2 {
+  color: rgb(195, 135, 102);
+  margin-bottom: 20px;
+  border-color: rgba(255, 239, 230, 0.249);
+}
+
+button {
+  background-color: rgb(197, 143, 114);
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+  transition: transform 1000ms;
+  padding: 1em 2em;
+}
+button:hover, button:focus-visible {
+  transform: translateY(-0.55rem);
+  transition: transform 500ms;
+  background-color: rgb(247, 219, 208);
+  color: rgb(118, 71, 46);
+}
+button a {
+  text-decoration: none;
+  color: rgb(118, 71, 46);
+}
+
+.copas {
+  background-image: url(../imagenes/pexels-photo-3171837.jpg);
+  padding-top: 10.5rem;
+  padding-bottom: 6rem;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center 10%;
+  background-size: cover;
+  opacity: 90%;
+  margin-bottom: 10px;
+}
+
+.musica {
+  background: linear-gradient(rgb(226, 182, 158), rgb(213, 159, 126));
+  padding: 2rem;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  text-align: center;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+}
+.musica h5 {
+  color: rgb(250, 235, 229);
+}
+.musica .musicaBoton {
+  border-radius: 3px;
+  padding: 10px;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.3);
+  border-style: none;
+  margin-top: 20px;
+}
+.musica .musicaBoton:hover {
+  color: bisque;
+  background-color: rgb(247, 219, 208);
+}
+.musica .emojimusic {
+  color: rgb(195, 135, 102);
+  border-color: rgba(255, 239, 230, 0.249);
+  margin-bottom: 10px;
+}
+.musica .emojimusic:hover {
+  color: rgb(255, 234, 223);
+  background-color: rgb(226, 182, 158);
+}
+
+.parallax {
+  position: relative;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.parallax .parallax img {
+  position: relative;
+  bottom: -50px;
+  background-size: cover;
+}
+.parallax .image-text-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(250, 250, 250, 0.759);
+  padding: 2rem 3rem;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+.parallax .emoji2 {
+  color: rgb(202, 124, 133);
+}
+.parallax .datosCbu {
+  margin-top: 20px;
+  background-color: rgba(208, 187, 182, 0.554);
+}
+.parallax .datosCbu a {
+  color: black;
+}
+
+body {
+  min-height: 100vh;
+  box-sizing: border-box;
+  font-family: "Tenor Sans", sans-serif;
+  background-color: rgb(238, 219, 205);
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+body h2,
+body h3 {
+  font-size: 3rem;
+}
+body .Temporizador {
+  background-color: rgb(191, 156, 136);
+  align-items: center;
+}
+body .TemporizadorTabla {
+  background-color: rgb(179, 255, 0);
+}
+
+main h3 {
+  color: rgb(141, 114, 103);
+}
+
+#page-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media (min-width: 900px) {
+  .mi-sección {
+    display: flex;
+    /* Cambio a flexbox para alinear las cajas */
+    justify-content: space-between;
+    /* Distribuir las cajas con espacio entre ellas */
+    align-items: flex-start;
+    /* Alinear las cajas en la parte superior */
+  }
+  .Caja {
+    background-color: rgb(232, 213, 201);
+    margin: 0.6rem;
+    flex: 1;
+    /* Ocupar espacio igual entre las cajas */
+    margin-left: auto;
+    width: 33%;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
