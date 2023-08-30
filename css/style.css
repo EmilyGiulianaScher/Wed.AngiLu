@@ -1,3 +1,4 @@
+@charset "UTF-8";
 *,
 *::before,
 *::after {
@@ -36,12 +37,13 @@ html {
 }
 
 .owl-carousel {
-  width: 100%;
-  height: 100vh;
+  width: 75%;
+  margin: 0 auto; /* Centro horizontal */
+  /* ... (el resto de tu código) ... */
 }
 .owl-carousel .slide {
   width: 100%;
-  height: 100vh;
+  height: 50vh; /* Ajustar la altura */
   position: relative;
   background-size: cover;
   background-repeat: no-repeat;
@@ -121,6 +123,7 @@ html {
   text-transform: uppercase;
   margin-top: 15px;
   margin-bottom: 15px;
+  color: black;
 }
 .contenedorC1 h2 {
   display: flex;
@@ -145,14 +148,27 @@ html {
   align-items: center;
   border-style: none;
 }
+.contenedorC1 .abrir-modal {
+  text-decoration: none;
+  padding: 1em 3em;
+  border-radius: 8px;
+  display: inline-block;
+  font-weight: 300;
+  box-shadow: 6px 6px 9px rgba(0, 0, 0, 0.2);
+  box-sizing: border-box;
+  margin-top: 30px;
+  color: rgb(118, 71, 46);
+  background-color: rgba(255, 255, 255, 0.538);
+}
 
 button {
-  background-color: transparent;
+  background-color: rgba(255, 255, 255, 0.538);
   cursor: pointer;
   transition: transform 1000ms;
   padding: 1em 2em;
   border-style: none;
-  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.2);
+  box-shadow: 6px 6px 9px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
 }
 button:hover, button:focus-visible {
   transform: translateY(-0.55rem);
@@ -167,12 +183,21 @@ button a {
 
 .contenedorImg {
   position: relative;
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-position: center center;
-  background-size: cover;
+  width: 50%; /* Ajusta el ancho deseado */
+  margin: 0 auto; /* Para centrar horizontalmente */
 }
 
+.contenedorImg img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  .contenedorImg {
+    width: 80%; /* Cambiar el ancho para dispositivos más pequeños */
+  }
+}
 body {
   margin: 0;
   padding: 0;
@@ -216,12 +241,19 @@ body {
   box-shadow: 6px 6px 9px rgba(0, 0, 0, 0.9);
   opacity: 0;
   pointer-events: none;
+  transition: opacity 0.6s 0.9s;
+  --transform: translateY(-100vh);
+  --transition: transform .8s;
 }
-.modal .modal--show {
+
+.modal--show {
   opacity: 1;
   pointer-events: unset;
+  --transform: translateY(0);
+  transition: opacity 0.6s 0.8s;
 }
-.modal .modal-container {
+
+.modal-container {
   margin: auto;
   width: 90%;
   max-width: 600px;
@@ -233,8 +265,11 @@ body {
   gap: 1em;
   place-items: center;
   grid-auto-columns: 100%;
+  transform: var(--transform);
+  transition: var(--transition);
 }
-.modal .modal-arg {
+
+.modal-arg {
   box-sizing: border-box;
   border: 0;
   outline: 0;
@@ -257,7 +292,8 @@ body {
   padding-left: 30px;
   margin: 0 !important;
 }
-.modal .modal-aus {
+
+.modal-aus {
   box-sizing: border-box;
   outline: 0;
   font-size: 100%;
@@ -284,16 +320,21 @@ body {
   margin: 0 !important;
   margin-right: 0 !important;
 }
-.modal .modal-title {
-  font-size: 2rem;
+
+.modal-title {
+  font-size: 1.5rem;
+  color: rgb(221, 173, 135);
 }
-.modal .modal-sub {
+
+.modal-sub {
   font-size: 1.2rem;
 }
-.modal .modal.cbu {
+
+.modal.cbu {
   margin-bottom: 10px;
 }
-.modal .modal-close {
+
+.modal-close {
   text-decoration: none;
   color: #fff;
   background-color: rgb(221, 173, 135);
@@ -303,12 +344,29 @@ body {
   font-weight: 300;
   box-shadow: 6px 6px 9px rgba(0, 0, 0, 0.2);
   box-sizing: border-box;
+  margin-top: 30px;
+  align-items: center;
+  justify-content: center;
+  margin-left: 35%;
 }
 
 body {
   font-family: "EB Garamond", serif;
   font-family: "Tenor Sans", sans-serif;
   background-color: rgb(248, 244, 241);
+  background-image: url(../imagenes/fondo.text); /* Reemplaza 'ruta-de-tu-imagen.png' con la ruta de tu imagen */
+  background-size: contain; /* Ajusta el tamaño de la imagen para cubrir todo el fondo */
+  background-repeat: repeat; /* Repite la imagen en el fondo */
+  background-color: #f9f9f9; /* Color de fondo de respaldo */
+}
+
+@media (max-width: 800px) {
+  .modal-container {
+    padding: 2em 1.5em;
+  }
+  .modal-title {
+    font-size: 2rem;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

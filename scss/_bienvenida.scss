@@ -13,6 +13,7 @@
         text-transform: uppercase;
         margin-top: 15px;
         margin-bottom: 15px;
+        color: black;
 
 
     }
@@ -41,7 +42,20 @@
         justify-content: center;
         align-items: center;
         border-style: none;
-        
+ 
 
+    }
+    .abrir-modal{
+        text-decoration: none;
+        padding: 1em 3em;
+        border-radius: 8px;
+        display: inline-block;
+        font-weight: 300;
+        box-shadow: 6px 6px 9px rgba(0, 0, 0, 0.2);
+        box-sizing: border-box;
+        margin-top: 30px;
+        color: rgb(118, 71, 46);
+        background-color: rgba(255, 255, 255, 0.538);
+    
     }
 }
