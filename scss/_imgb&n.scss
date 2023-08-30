@@ -1,18 +1,18 @@
 
 .contenedorImg {
-    position: relative;
-    width: 50%; /* Ajusta el ancho deseado */
-    margin: 0 auto; /* Para centrar horizontalmente */
+  position: relative;
+  width: 100%; /* Ajusta el ancho deseado */
+  margin: 0 auto; /* Para centrar horizontalmente */
+}
+
+.contenedorImg img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  .contenedorImg {
+    width: 100%; /* Cambiar el ancho para dispositivos más pequeños */
   }
-  
-  .contenedorImg img {
-    display: block;
-    max-width: 100%;
-    height: auto;
-  }
-  
-  @media (max-width: 768px) {
-    .contenedorImg {
-      width: 80%; /* Cambiar el ancho para dispositivos más pequeños */
-    }
-  }
+}

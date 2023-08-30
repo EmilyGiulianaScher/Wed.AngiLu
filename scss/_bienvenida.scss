@@ -1,9 +1,9 @@
-.contenedorC1{
+.contenedorC1 {
     margin-top: 20px;
     margin-right: 20px;
     margin-bottom: 20px;
     margin-left: 20px;
-    
+
 
     h1 {
         display: flex;
@@ -14,17 +14,20 @@
         margin-top: 15px;
         margin-bottom: 15px;
         color: black;
+        font-family: 'Tenor Sans', sans-serif;
 
 
     }
-    h2{
+
+    h2 {
         display: flex;
         font-size: 2rem;
         justify-content: center;
         align-items: center;
-        text-transform: uppercase;
+       
         margin-top: 15px;
         margin-bottom: 15px;
+        font-family: 'Pinyon Script', cursive;
     }
 
     p {
@@ -42,10 +45,11 @@
         justify-content: center;
         align-items: center;
         border-style: none;
- 
+
 
     }
-    .abrir-modal{
+
+    .abrir-modal {
         text-decoration: none;
         padding: 1em 3em;
         border-radius: 8px;
@@ -56,6 +60,6 @@
         margin-top: 30px;
         color: rgb(118, 71, 46);
         background-color: rgba(255, 255, 255, 0.538);
-    
+
     }
 }

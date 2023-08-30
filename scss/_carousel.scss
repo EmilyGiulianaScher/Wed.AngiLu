@@ -5,13 +5,12 @@
 }
 
 .owl-carousel {
-  width: 75%;
-  margin: 0 auto; /* Centro horizontal */
+  width: 100%;
 
 
 .slide {
   width: 100%;
-  height: 50vh; /* Ajustar la altura */
+  height: 100vh; /* Ajustar la altura */
   position: relative;
   background-size: cover;
   background-repeat: no-repeat;
@@ -49,46 +48,46 @@
   top: 50%;
   transform: translateY(-50%);
   color: #fff;
-  padding: 0 20%;
+}
 }
 
-.owl-dots {
+.slide-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* Distribuir elementos verticalmente */
+  position: absolute;
   width: 100%;
-  text-align: center;
-  position: absolute;
-  bottom: 1%;
+  height: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  color: #fff;
+
+  p {
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 4%;
+    text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.8);
+  }
+
+  h1 {
+    font-size: 2rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+    text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.8);
+  }
+
+  /* Agrega estilos para el segundo h1 */
+  h1:last-child {
+    font-size: 1.2rem;
+    font-weight: 400;
+    text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.8);
+    margin-bottom: 5%;
+  }
 }
 
-.owl-dots span {
-  width: 20px !important;
-  height: 20px !important;
-}
 
-.owl-dots button {
-  border: none !important;
-  outline: none !important;
-}
 
-.owl-nav button {
-  border: none !important;
-  outline: none !important;
-}
 
-.owl-prev, .owl-next {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  color: #fff !important;
-  font-size: 65px !important;
-  font-weight: bolder !important;
-  background:none !important;
-}
 
-.owl-prev {
-  left: 1%;
-}
 
-.owl-next {
-  right: 1%;
-}
-}
