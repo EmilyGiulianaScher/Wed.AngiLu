@@ -1,0 +1,41 @@
+.counter-container {
+    width: 70%;
+    /* Puedes ajustar este valor según tu preferencia */
+    margin: .2rem auto;
+    /* Centra horizontalmente el contenedor */
+
+    @media (max-width: 500px) {
+        width: 90%;
+        /* Ancho para dispositivos móviles */
+    }
+}
+
+.counter-table {
+    width: 100%;
+    text-align: center;
+}
+
+.counter-cell {
+    border-style: solid;
+    border-color: #ffffff;
+    border-width: 0px;
+    color: #303030;
+    padding: 0px;
+    font-size: 2rem;
+    font-family: "Dancing Script Normal";
+}
+
+.counter-label {
+    border-width: 0px;
+    color: #303030;
+    text-align: center;
+    padding: 0px;
+    font-size: 1rem;
+    font-family: "Monotype Corsive";
+}
+
+.separator {
+    font-size: 2rem;
+    color: #696969d2;
+    padding: 0;
+}

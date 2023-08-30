@@ -27,7 +27,7 @@
   left: 0;
   width: 100%;
   height: 100vh;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.2);
 }
 
 .slide-1 {
@@ -67,14 +67,20 @@
     text-align: center;
     margin-top: 4%;
     text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.8);
+ 
   }
 
   h1 {
-    font-size: 2rem;
-    font-weight: 600;
+    font-size: 2.8rem;
+
     text-transform: uppercase;
     text-align: center;
     text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.8);
+    font-family: 'Cormorant Garamond', serif;
+  }
+  h2{
+    font-family: 'Pinyon Script', cursive;
+    font-size: 2rem;
   }
 
   /* Agrega estilos para el segundo h1 */

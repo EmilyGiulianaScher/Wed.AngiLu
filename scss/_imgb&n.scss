@@ -1,18 +1,31 @@
-
 .contenedorImg {
   position: relative;
-  width: 100%; /* Ajusta el ancho deseado */
-  margin: 0 auto; /* Para centrar horizontalmente */
+  width: 100%;  /* Ajusta el ancho deseado */
+  margin: 0 auto;   /* Para centrar horizontalmente */
+  
+
 }
 
 .contenedorImg img {
   display: block;
   max-width: 100%;
-  height: auto;
+  margin: 0 auto;
+  /* Para centrar horizontalmente */
 }
 
-@media (max-width: 768px) {
+@media (max-width: 730px) {
+
   .contenedorImg {
-    width: 100%; /* Cambiar el ancho para dispositivos más pequeños */
+    position: relative;
+    width: 100%; /* Ajusta el ancho deseado */
+    max-height: 60vh;    
+    margin: 0 auto;  /* Para centrar horizontalmente */
+
+  }
+
+
+  .imgBw {
+    max-width: 100%;
+    max-height: 60vh;
   }
 }
