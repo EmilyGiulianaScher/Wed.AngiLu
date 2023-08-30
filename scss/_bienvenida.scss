@@ -1,0 +1,47 @@
+.contenedorC1{
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    
+
+    h1 {
+        display: flex;
+        font-size: 3rem;
+        justify-content: center;
+        align-items: center;
+        text-transform: uppercase;
+        margin-top: 15px;
+        margin-bottom: 15px;
+
+
+    }
+    h2{
+        display: flex;
+        font-size: 2rem;
+        justify-content: center;
+        align-items: center;
+        text-transform: uppercase;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    p {
+        display: flex;
+        font-size: 1rem;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .botonC1 {
+        display: flex;
+        margin-top: 20px;
+        margin-bottom: 40px;
+        justify-content: center;
+        align-items: center;
+        border-style: none;
+        
+
+    }
+}
