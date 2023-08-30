@@ -48,6 +48,13 @@
   top: 50%;
   transform: translateY(-50%);
   color: #fff;
+
+  h1 {
+    text-align: center;
+    text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.8);
+    font-family: 'Pinyon Script', cursive;
+    font-size: 2.8rem !important;
+  }
 }
 }
 
@@ -61,6 +68,13 @@
   padding: 10px;
   box-sizing: border-box;
   color: #fff;
+  .titulocarro{
+    font-size: 2.8rem;
+
+    text-transform: uppercase;
+    text-align: center;
+    text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.8);
+  }
 
   p {
     font-size: 1.5rem;
@@ -70,18 +84,8 @@
  
   }
 
-  h1 {
-    font-size: 2.8rem;
+ 
 
-    text-transform: uppercase;
-    text-align: center;
-    text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.8);
-    font-family: 'Cormorant Garamond', serif;
-  }
-  h2{
-    font-family: 'Pinyon Script', cursive;
-    font-size: 2rem;
-  }
 
   /* Agrega estilos para el segundo h1 */
   h1:last-child {

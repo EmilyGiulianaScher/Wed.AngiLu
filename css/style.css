@@ -73,6 +73,12 @@ html {
   transform: translateY(-50%);
   color: #fff;
 }
+.owl-carousel .slide-content h1 {
+  text-align: center;
+  text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.8);
+  font-family: "Pinyon Script", cursive;
+  font-size: 2.8rem !important;
+}
 
 .slide-content {
   display: flex;
@@ -86,22 +92,17 @@ html {
   color: #fff;
   /* Agrega estilos para el segundo h1 */
 }
+.slide-content .titulocarro {
+  font-size: 2.8rem;
+  text-transform: uppercase;
+  text-align: center;
+  text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.8);
+}
 .slide-content p {
   font-size: 1.5rem;
   text-align: center;
   margin-top: 4%;
   text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.8);
-}
-.slide-content h1 {
-  font-size: 2.8rem;
-  text-transform: uppercase;
-  text-align: center;
-  text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.8);
-  font-family: "Cormorant Garamond", serif;
-}
-.slide-content h2 {
-  font-family: "Pinyon Script", cursive;
-  font-size: 2rem;
 }
 .slide-content h1:last-child {
   font-size: 1.2rem;
@@ -383,6 +384,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: rgb(147, 221, 135);
 }
 @media (max-width: 500px) {
   .counter-container {
