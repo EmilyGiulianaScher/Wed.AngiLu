@@ -8,7 +8,8 @@
     text-align: center;
     justify-content: center;
     background-color: rgb(203, 187, 174);
-
+    border-radius: 5px;
+    box-shadow: 6px 6px 9px rgba(0, 0, 0, 0.2);
 
 
 
@@ -106,6 +107,8 @@
     text-align: center;
     justify-content: center;
     background-color: rgb(238, 232, 222);
+    border-radius: 5px;
+    box-shadow: 6px 6px 9px rgba(0, 0, 0, 0.2);
 
 
     h2 {
@@ -155,6 +158,8 @@
     text-align: center;
     justify-content: center;
     background-color: rgb(220, 214, 203);
+    border-radius: 5px;
+    box-shadow: 6px 6px 9px rgba(0, 0, 0, 0.2);
 
 
     h2 {
@@ -212,6 +217,8 @@
     text-align: center;
     justify-content: center;
     background-color: rgb(235, 233, 222);
+    border-radius: 5px;
+    box-shadow: 6px 6px 9px rgba(0, 0, 0, 0.2);
 
 
     h2 {
@@ -261,6 +268,8 @@
     text-align: center;
     justify-content: center;
     background-color: rgb(219, 216, 202);
+    border-radius: 5px;
+    box-shadow: 6px 6px 9px rgba(0, 0, 0, 0.2);
 
 
     h2 {
@@ -303,23 +312,25 @@
 
 
         }
+
         &:hover,
         &:focus-visible {
             transform: translateY(-0.55rem);
             transition: transform 500ms;
             background-color: rgb(221, 173, 135);
             color: rgb(118, 71, 46);
-    
+
         }
     }
+
     .emoji {
         display: flex;
         font-size: 2.5rem;
         justify-content: center;
         align-items: center;
-    
+
         animation-duration: 3s;
-    
+
     }
 }
 
@@ -340,6 +351,8 @@
     text-align: center;
     justify-content: center;
     background-color: rgb(211, 203, 185);
+    border-radius: 5px;
+    box-shadow: 6px 6px 9px rgba(0, 0, 0, 0.2);
 
 
     h2 {
@@ -390,6 +403,8 @@
     text-align: center;
     justify-content: center;
     background-color: rgb(203, 195, 183);
+    border-radius: 5px;
+    box-shadow: 6px 6px 9px rgba(0, 0, 0, 0.2);
 
 
     h2 {

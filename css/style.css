@@ -118,6 +118,8 @@ html {
   text-align: center;
   justify-content: center;
   background-color: rgb(203, 187, 174);
+  border-radius: 5px;
+  box-shadow: 6px 6px 9px rgba(0, 0, 0, 0.2);
 }
 .contenedorC1 .parrafo1 {
   font-size: 1rem;
@@ -190,6 +192,8 @@ html {
   text-align: center;
   justify-content: center;
   background-color: rgb(238, 232, 222);
+  border-radius: 5px;
+  box-shadow: 6px 6px 9px rgba(0, 0, 0, 0.2);
 }
 .contenedorC1-CA h2 {
   display: flex;
@@ -229,6 +233,8 @@ html {
   text-align: center;
   justify-content: center;
   background-color: rgb(220, 214, 203);
+  border-radius: 5px;
+  box-shadow: 6px 6px 9px rgba(0, 0, 0, 0.2);
 }
 .contenedorC1-CB h2 {
   display: flex;
@@ -268,6 +274,8 @@ html {
   text-align: center;
   justify-content: center;
   background-color: rgb(235, 233, 222);
+  border-radius: 5px;
+  box-shadow: 6px 6px 9px rgba(0, 0, 0, 0.2);
 }
 .contenedorC1-asistencia h2 {
   display: flex;
@@ -307,6 +315,8 @@ html {
   text-align: center;
   justify-content: center;
   background-color: rgb(219, 216, 202);
+  border-radius: 5px;
+  box-shadow: 6px 6px 9px rgba(0, 0, 0, 0.2);
 }
 .contenedorC1-regalos h2 {
   display: flex;
@@ -364,6 +374,8 @@ html {
   text-align: center;
   justify-content: center;
   background-color: rgb(211, 203, 185);
+  border-radius: 5px;
+  box-shadow: 6px 6px 9px rgba(0, 0, 0, 0.2);
 }
 .contenedorC1-musica h2 {
   display: flex;
@@ -403,6 +415,8 @@ html {
   text-align: center;
   justify-content: center;
   background-color: rgb(203, 195, 183);
+  border-radius: 5px;
+  box-shadow: 6px 6px 9px rgba(0, 0, 0, 0.2);
 }
 .contenedorC1-instagram h2 {
   display: flex;
