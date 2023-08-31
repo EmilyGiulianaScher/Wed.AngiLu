@@ -1,14 +1,24 @@
 .contenedorC1 {
+
     margin-top: 20px;
     margin-right: 20px;
     margin-bottom: 20px;
     margin-left: 20px;
+    padding: 2rem 3rem;
+    text-align: center;
+    justify-content: center;
+    background-color: rgb(203, 187, 174);
 
 
-    .parrafo1{
+
+
+    .parrafo1 {
         font-size: 1rem;
+        margin-top: 15px;
+        padding: 1rem 1.5rem;
 
     }
+
 
     h1 {
         display: flex;
@@ -29,10 +39,10 @@
         font-size: 2rem;
         justify-content: center;
         align-items: center;
-       
+
         margin-top: 15px;
         margin-bottom: 15px;
-       
+
     }
 
     p {
@@ -41,6 +51,7 @@
         align-items: center;
 
     }
+
     .botonC1 {
         display: flex;
         margin-top: 20px;
@@ -49,7 +60,8 @@
         align-items: center;
         border-style: none;
     }
-    .emoji{
+
+    .emoji {
         display: flex;
         font-size: 2.5rem;
         justify-content: center;
@@ -58,11 +70,13 @@
         animation-duration: 3s;
 
     }
-    .emoji_regalo{
+
+    .emoji_regalo {
         animation-duration: 2s;
         padding-right: 15px;
         padding-bottom: 7px;
     }
+
     .abrir-modal {
         text-decoration: none;
         padding: 1em 3em;
@@ -74,6 +88,344 @@
         margin-top: 30px;
         color: rgb(118, 71, 46);
         background-color: rgba(255, 255, 255, 0.538);
+
+    }
+}
+
+
+
+
+
+.contenedorC1-CA {
+
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    padding: 2rem 3rem;
+    text-align: center;
+    justify-content: center;
+    background-color: rgb(238, 232, 222);
+
+
+    h2 {
+        display: flex;
+        font-size: 2rem;
+        justify-content: center;
+        align-items: center;
+
+        margin-top: 15px;
+        margin-bottom: 15px;
+
+    }
+
+    p {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .botonC1 {
+        display: flex;
+        margin-top: 20px;
+        margin-bottom: 40px;
+        justify-content: center;
+        align-items: center;
+        border-style: none;
+    }
+
+    .emoji {
+        display: flex;
+        font-size: 2.5rem;
+        justify-content: center;
+        align-items: center;
+
+        animation-duration: 3s;
+
+    }
+}
+
+.contenedorC1-CB {
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    padding: 2rem 3rem;
+    text-align: center;
+    justify-content: center;
+    background-color: rgb(220, 214, 203);
+
+
+    h2 {
+        display: flex;
+        font-size: 2rem;
+        justify-content: center;
+        align-items: center;
+
+        margin-top: 15px;
+        margin-bottom: 15px;
+
+    }
+
+    p {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .botonC1 {
+        display: flex;
+        margin-top: 20px;
+        margin-bottom: 40px;
+        justify-content: center;
+        align-items: center;
+        border-style: none;
+    }
+
+    .emoji {
+        display: flex;
+        font-size: 2.5rem;
+        justify-content: center;
+        align-items: center;
+
+        animation-duration: 3s;
+
+    }
+}
+
+
+
+
+
+
+
+
+
+.contenedorC1-asistencia {
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    padding: 2rem 3rem;
+    text-align: center;
+    justify-content: center;
+    background-color: rgb(235, 233, 222);
+
+
+    h2 {
+        display: flex;
+        font-size: 2rem;
+        justify-content: center;
+        align-items: center;
+
+        margin-top: 15px;
+        margin-bottom: 15px;
+
+    }
+
+    p {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .botonC1 {
+        display: flex;
+        margin-top: 20px;
+        margin-bottom: 40px;
+        justify-content: center;
+        align-items: center;
+        border-style: none;
+    }
+
+    .emoji {
+        display: flex;
+        font-size: 2.5rem;
+        justify-content: center;
+        align-items: center;
+
+        animation-duration: 3s;
+
+    }
+}
+
+.contenedorC1-regalos {
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    padding: 2rem 3rem;
+    text-align: center;
+    justify-content: center;
+    background-color: rgb(219, 216, 202);
+
+
+    h2 {
+        display: flex;
+        font-size: 2rem;
+        justify-content: center;
+        align-items: center;
+
+        margin-top: 15px;
+        margin-bottom: 15px;
+
+    }
+
+    p {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .botonC1 {
+        display: block;
+        margin-top: 20px;
+        margin-bottom: 40px;
+        justify-content: center;
+        align-items: center;
+        border-style: none;
+        background-color: rgba(255, 255, 255, 0.538);
+        cursor: pointer;
+        transition: transform 1000ms;
+        padding: 1em 2em;
+        border-style: none;
+        box-shadow: 6px 6px 9px rgba(0, 0, 0, 0.2);
+        border-radius: 8px;
+        display: inline-block;
+
+        a {
+            text-decoration: none;
+            color: rgb(118, 71, 46);
+
+
+        }
+        &:hover,
+        &:focus-visible {
+            transform: translateY(-0.55rem);
+            transition: transform 500ms;
+            background-color: rgb(221, 173, 135);
+            color: rgb(118, 71, 46);
+    
+        }
+    }
+    .emoji {
+        display: flex;
+        font-size: 2.5rem;
+        justify-content: center;
+        align-items: center;
+    
+        animation-duration: 3s;
+    
+    }
+}
+
+
+
+
+
+
+
+
+
+.contenedorC1-musica {
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    padding: 2rem 3rem;
+    text-align: center;
+    justify-content: center;
+    background-color: rgb(211, 203, 185);
+
+
+    h2 {
+        display: flex;
+        font-size: 2rem;
+        justify-content: center;
+        align-items: center;
+
+        margin-top: 15px;
+        margin-bottom: 15px;
+
+    }
+
+    p {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .botonC1 {
+        display: flex;
+        margin-top: 20px;
+        margin-bottom: 40px;
+        justify-content: center;
+        align-items: center;
+        border-style: none;
+    }
+
+    .emoji {
+        display: flex;
+        font-size: 2.5rem;
+        justify-content: center;
+        align-items: center;
+
+        animation-duration: 3s;
+
+    }
+}
+
+
+.contenedorC1-instagram {
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    padding: 2rem 3rem;
+    text-align: center;
+    justify-content: center;
+    background-color: rgb(203, 195, 183);
+
+
+    h2 {
+        display: flex;
+        font-size: 2rem;
+        justify-content: center;
+        align-items: center;
+
+        margin-top: 15px;
+        margin-bottom: 15px;
+
+    }
+
+    p {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .botonC1 {
+        display: flex;
+        margin-top: 20px;
+        margin-bottom: 40px;
+        justify-content: center;
+        align-items: center;
+        border-style: none;
+    }
+
+    .emoji {
+        display: flex;
+        font-size: 2.5rem;
+        justify-content: center;
+        align-items: center;
+
+        animation-duration: 3s;
 
     }
 }

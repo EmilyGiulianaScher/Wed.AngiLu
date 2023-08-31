@@ -18,58 +18,32 @@ closeModal.addEventListener('click', (e)=>{
 
 
 /* JS DEL TEMPORIZADOR NO TOCAR*/
-document.addEventListener('DOMContentLoaded', () => {
 
-    //===
-    // VARIABLES
-    //===
-    const DATE_TARGET = new Date('12/15/2023 05:01 PM');
-    // DOM for render
-    const SPAN_DAYS = document.querySelector('span#days');
-    const SPAN_HOURS = document.querySelector('span#hours');
-    const SPAN_MINUTES = document.querySelector('span#minutes');
-    const SPAN_SECONDS = document.querySelector('span#seconds');
-    // Milliseconds for the calculations
-    const MILLISECONDS_OF_A_SECOND = 1000;
-    const MILLISECONDS_OF_A_MINUTE = MILLISECONDS_OF_A_SECOND * 60;
-    const MILLISECONDS_OF_A_HOUR = MILLISECONDS_OF_A_MINUTE * 60;
-    const MILLISECONDS_OF_A_DAY = MILLISECONDS_OF_A_HOUR * 24
+const $days = document.getElementById('days'),
+$hours = document.getElementById('hours'),
+$minutes = document.getElementById('minutes'),
+$seconds = document.getElementById('seconds');
 
-    //===
-    // FUNCTIONS
-    //===
+//Fecha a futuro
+const countdownDate = new Date('12 15, 2023 17:00:00').getTime();
 
-    /**
-    * Method that updates the countdown and the sample
-    */
-    function updateCountdown() {
-        // Calcs
-        const NOW = new Date()
-        const DURATION = DATE_TARGET - NOW;
-        let REMAINING_DAYS = Math.floor(DURATION / MILLISECONDS_OF_A_DAY);
-        let REMAINING_HOURS = Math.floor((DURATION % MILLISECONDS_OF_A_DAY) / MILLISECONDS_OF_A_HOUR);
-        let REMAINING_MINUTES = Math.floor((DURATION % MILLISECONDS_OF_A_HOUR) / MILLISECONDS_OF_A_MINUTE);
-        let REMAINING_SECONDS = Math.floor((DURATION % MILLISECONDS_OF_A_MINUTE) / MILLISECONDS_OF_A_SECOND);
+let interval = setInterval(function(){
+    //Obtener fecha actual y milisegundos
+    const now = new Date().getTime();
 
-        // Set any negative values to 0
-        REMAINING_DAYS = REMAINING_DAYS < 0 ? 0 : REMAINING_DAYS;
-        REMAINING_HOURS = REMAINING_HOURS < 0 ? 0 : REMAINING_HOURS;
-        REMAINING_MINUTES = REMAINING_MINUTES < 0 ? 0 : REMAINING_MINUTES;
-        REMAINING_SECONDS = REMAINING_SECONDS < 0 ? 0 : REMAINING_SECONDS;
+    //Obtener las distancias entre ambas fechas
+    let distance = countdownDate - now;
 
-        // Naileth Pinto
+    //Calculos a dias-horas-minutos-segundos
+    let days = Math.floor(distance / (1000 * 60 * 60 * 24));
+    let hours = Math.floor((distance % (1000 * 60 * 60 * 24 )) / (1000 * 60 * 60));
+    let minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+    let seconds = Math.floor((distance % (1000 * 60 )) / (1000));
 
-        // Render
-        SPAN_DAYS.textContent = REMAINING_DAYS;
-        SPAN_HOURS.textContent = REMAINING_HOURS;
-        SPAN_MINUTES.textContent = REMAINING_MINUTES;
-        SPAN_SECONDS.textContent = REMAINING_SECONDS;
-    }
+    //Escribimos resultados
+    $days.innerHTML = days;
+    $hours.innerHTML = hours;
+    $minutes.innerHTML = minutes;
+    $seconds.innerHTML = ('0' + seconds).slice(-2);
 
-    //===
-    // INIT
-    //===
-    updateCountdown();
-    // Refresh every second
-    setInterval(updateCountdown, MILLISECONDS_OF_A_SECOND);
-});
+}, 1000);

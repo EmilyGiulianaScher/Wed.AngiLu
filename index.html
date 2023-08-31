@@ -35,14 +35,7 @@
 
 <body>
     <header class="owl-carousel owl-theme">
-        <div class="slide slide-1">
-            <div class="slide-content">
-                <p>15.12.2023</p>
-                <div>
-                    <h1>Lu & Angi</h1>
-                </div>
-            </div>
-        </div>
+
         <div class="slide slide-2">
             <div class="slide-content">
                 <p>15.12.2023</p>
@@ -55,7 +48,7 @@
             <div class="slide-content">
                 <p>15.12.2023</p>
                 <div>
-                    <h1>Lu & Angi</h1>             
+                    <h1>Lu & Angi</h1>
                 </div>
             </div>
         </div>
@@ -63,55 +56,62 @@
 
     <main>
         <!-- Contador regresivo -->
-        <section class="counter-container">
-            <table class="counter-table">
-                <tr>
-                    <td class="counter-cell"><span id="days"></span></td>
-                    <td class="separator">|</td>
-                    <td class="counter-cell"><span id="hours"></span></td>
-                    <td class="separator">|</td>
-                    <td class="counter-cell"><span id="minutes"></span></td>
-                    <td class="separator">|</td>
-                    <td class="counter-cell segundero"><span id="seconds"></span></td>
-                </tr>
-                <tr>
-                    <th class="counter-label">Días</th>
-                    <th class="separator"></th>
-                    <th class="counter-label">Horas</th>
-                    <th class="separator"></th>
-                    <th class="counter-label">Min</th>
-                    <th class="separator"></th>
-                    <th class="counter-label">Seg</th>
-                </tr>
-            </table>
-        </section>
+        <div>
+            <section class="container_contador_total">
+                <div class="countdown">
+                    <div>
+                        <p class="container_contador" id="days">132</p>
+                        <span>Dias</span>
+                    </div>
+                    <div>
+                        <p class="container_contador" id="hours">15</p>
+                        <span>Horas</span>
+                    </div>
+                    <div>
+                        <p class="container_contador" id="minutes">25</p>
+                        <span>Minutos</span>
+                    </div>
+                    <div>
+                        <p class="container_contador" id="seconds">45</p>
+                        <span>Segundos</span>
+                    </div>
+                </div>
+            </section>
+        </div>
+
 
 
         <section class="contenedorC1">
-            <p class="parrafo1"> Nos encantaría que formes parte de esta celebración tan importante para nosotros, abajo te dejamos toda la info!</p>
+            <i class="fa-solid fa-heart emoji" style="color: #d1a68d;"></i>
+            <p class="parrafo1"> Nos encantaría que formes parte de esta celebración tan importante para nosotros, abajo
+                te dejamos toda la info!</p>
         </section>
 
         <section class="contenedorImg">
-            <img class="imgBw" src="imagenes/19byn.jpg" alt="imgbyn">
+            <img class="imgBw" src="imagenes/19.jpg" alt="imgbyn">
         </section>
 
         <!-- Ceremonias -->
-        <section class="contenedorC1">
-            <i class="fa-solid fa-church emoji fa-beat" style="color: #d1a68d;"></i>
+        <section class="contenedorC1-CA">
+            <i class="fa-solid fa-church emoji fa-beat emoji" style="color: #d1a68d;"></i>
             <h2> Ceremonia religiosa</h2>
             <p> La Ceremonia Religiosa se realizará a las 17:00hs en la Parroquia San Francisco Solano, ubicada en
-                Mendoza entre Quintana y Martínez</p>
+                Mendoza entre Quintana y Martínez.</p>
             <div class="botonC1">
                 <button> <a href="https://goo.gl/maps/vjbVzpj2QjnQodMa7" target="_blank"> COMO LLEGAR</a> </button>
             </div>
+        </section>
+        <section class="contenedorC1-CB">
             <i class="fa-solid fa-champagne-glasses fa-shake emoji" style="color: #d1a68d;"></i>
             <h2> Ceremonia civil y festejo</h2>
-            <p> Las celebraciones se haran en conjunto a partir de las 19hs en Espacio Andes, ubicado en Av. Maipú 3841
+            <p> Las celebraciones se haran en conjunto a partir de las 19hs en Espacio Andes.
             </p>
             <div class="botonC1">
                 <button> <a href="https://goo.gl/maps/XdDsNaL5N15gvATx6" target="_blank"> COMO LLEGAR</a> </button>
             </div>
         </section>
+
+
 
         <!-- Instagram -->
         <section class="contenedorImg">
@@ -119,9 +119,9 @@
         </section>
 
         <!-- Formulario de Asistencia -->
-        <section class="contenedorC1">
+        <section class="contenedorC1-asistencia">
             <h2> Te esperamos!</h2>
-            <p> Nos encantaría que puedas acompañarnos, por favor confirmanos</p>
+            <p>Por favor confirmá tu asistencia</p>
             <div class="botonC1">
                 <button> <a
                         href="https://docs.google.com/forms/d/e/1FAIpQLSe8a2AkHdBID6cIG5tttu_5CANX7ltNGtkkDRHvR4Q-G3tcrg/viewform"
@@ -131,9 +131,9 @@
         </section>
 
         <!-- REGALOS -->
-        <section class="contenedorC1">
+        <section class="contenedorC1-regalos">
             <h2> <i class="fa-solid fa-gifts fa-bounce emoji_regalo" style="color: #d1a68d;"></i> Regalos</h2>
-            <p> si queres hacernos un regalo, recorda que somos viajeros</p>
+            <p> si deseas hacernos un regalo, recorda que somos viajeros</p>
             <div class="botonC1">
                 <a href="#" class="abrir-modal"> DATOS CBU</a>
             </div>
@@ -143,13 +143,15 @@
                 <div class="modal-container">
                     <div class="modal-arg">
                         <h3 class="modal-title"> CUENTA BANCARIA (ARGENTINA) </h3>
-                        <h4 class="modal-sub"> Banco Santander</h4>
-                        <p class="modal-cbu"> CBU : 00000000000000000000000</p>
+                        <h4 class="modal-sub"> Banco Brubank </h4>
+                        <p class="modal-cbu"> CBU : 1430001713011898870013</p>
+                        <p class="modal-cbu"> Alias: boda.luyangi.</p>
                     </div>
                     <div class="modal-aus">
                         <h3 class="modal-title"> CUENTA BANCARIA (AUSTRALIA) </h3>
-                        <h4 class="modal-sub"> Banco Austriaco</h4>
-                        <p class="modal-cbu"> CBU : 00000000000000000000000</p>
+                        <h4 class="modal-sub"> Commonwealth. Bank of Australia</h4>
+                        <p class="modal-cbu"> Account number: 12135803</p>
+                        <p class="modal-cbu"> BSB: 062028 (Luciano Gutierrez)</p>
                         <a href="#" class="modal-close"> LISTO!</a>
                     </div>
                 </div>
@@ -157,17 +159,32 @@
         </section>
 
         <!-- cancionero -->
-        <section class="contenedorC1">
-            <i class="fa-solid fa-music fa-beat-fade emoji" style="color: #d1a68d;"></i>
-            <h2> Cancionero </h2>
-            <p> ¿Que canción no puede faltar? </p>
-            <div class="botonC1">
-                <button>
-                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSdagNVBZTJmIGBrzk6V9erPZuWpUkqfHSSFNGbG3J2JI9MbfQ/viewform?usp=sf_link"
-                        target="_blank">CANCIONERO</a>
-                </button>
+        <section class="contenedorC1-musica">
+            <div>
+                <i class="fa-solid fa-music fa-beat-fade emoji" style="color: #d1a68d;"></i>
+                <h2> Cancionero </h2>
+                <p> Dejanos abajo que canciones no pueden faltar ingresando al link! </p>
+                <div class="botonC1">
+                    <button>
+                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSdagNVBZTJmIGBrzk6V9erPZuWpUkqfHSSFNGbG3J2JI9MbfQ/viewform?usp=sf_link"
+                            target="_blank">IR AL CANCIONERO</a>
+                    </button>
+                </div>
             </div>
         </section>
+        <section class="contenedorC1-instagram">
+            <div class="music">
+                <i class="fa-brands fa-instagram emoji" style="color: #d1a68d;"></i>
+                <h2> #Lu&Angi </h2>
+                <p> Sumate a nuestro casamiento usando este Hashtag para compartirnos fotos y videos</p>
+                <div class="botonC1">
+                    <button>
+                        <a href="https://www.instagram.com/luyangi_/" target="_blank"> VER EN INSTAGRAM</a>
+                    </button>
+                </div>
+            </div>
+        </section>
+
     </main>
 
 

@@ -6,7 +6,7 @@
 
 .owl-carousel {
   width: 100%;
-
+  overflow: hidden;
 
 .slide {
   width: 100%;
@@ -30,16 +30,16 @@
   background-color: rgba(0, 0, 0, 0.2);
 }
 
-.slide-1 {
-  background-image: url(../imagenes/12.jpg);
-}
+
 
 .slide-2 {
-  background-image: url(../imagenes/15.jpg);
+  
+  background-image: url(../imagenes/20.jpg);
 }
 
 .slide-3 {
-  background-image: url(../imagenes/20.jpg);
+
+  background-image: url(../imagenes/15.jpg);
 }
 
 .slide-content {
