@@ -36,6 +36,7 @@
     pointer-events: unset;
     --transform: translateY(0);
     transition: opacity .6s .8s;
+    
 
 }
 
@@ -53,6 +54,7 @@
     grid-auto-columns: 100%;
     transform: var(--transform);
     transition: var(--transition);
+    box-shadow: 6px 6px 9px rgba(0, 0, 0, 0.2);
 
 
 

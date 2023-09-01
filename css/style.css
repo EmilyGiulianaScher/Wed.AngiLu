@@ -72,10 +72,12 @@ html {
   color: #fff;
 }
 .owl-carousel .slide-content h1 {
+  text-transform: uppercase;
   text-align: center;
   text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.8);
-  font-family: "Pinyon Script", cursive;
+  font-family: "Cormorant Garamond", serif;
   font-size: 2.8rem !important;
+  line-height: 2rem;
 }
 
 .slide-content {
@@ -133,7 +135,7 @@ html {
   margin-top: 15px;
   margin-bottom: 15px;
   color: black;
-  font-family: "Tenor Sans", sans-serif;
+  font-family: "Cormorant Garamond", serif;
 }
 .contenedorC1 h2 {
   display: flex;
@@ -147,6 +149,7 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
+  font-family: "Poppins", sans-serif;
 }
 .contenedorC1 .emoji {
   display: flex;
@@ -195,6 +198,7 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
+  font-family: "Poppins", sans-serif;
 }
 .contenedorC1-CA .emoji {
   display: flex;
@@ -510,6 +514,7 @@ body {
   grid-auto-columns: 100%;
   transform: var(--transform);
   transition: var(--transition);
+  box-shadow: 6px 6px 9px rgba(0, 0, 0, 0.2);
 }
 
 .modal-arg {
@@ -591,7 +596,7 @@ body {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  background-color: rgb(203, 187, 174);
+  background-color: rgb(211, 203, 185);
 }
 
 .countdown {
@@ -613,22 +618,22 @@ body {
   height: 100px;
   width: 100px;
   border-radius: 50%;
-  color: rgba(255, 255, 255, 0.7450980392);
+  color: rgb(179, 142, 108);
   font-size: 2rem;
-  background-color: rgb(224, 204, 185);
+  background-color: rgb(235, 233, 222);
   margin-top: 15px;
   margin-bottom: 0;
-  font-family: "Tenor Sans", sans-serif !important;
+  font-family: "Poppins", sans-serif;
 }
 
 span {
   display: block;
   text-align: center;
-  color: rgb(157, 138, 124);
+  color: rgb(179, 142, 108);
   font-size: 1.5rem;
   font-weight: 400;
   padding-bottom: 5px;
-  font-family: "Tenor Sans", sans-serif;
+  font-family: "Cormorant Garamond", serif;
 }
 
 body {
@@ -636,14 +641,18 @@ body {
 }
 body h1,
 body h2 {
-  text-wrap: balance;
+  flex-wrap: balance;
+  font-family: "Cormorant Garamond", serif;
+  text-transform: uppercase;
 }
 body p {
-  font-family: "Nunito", sans-serif;
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+  line-height: 2em;
 }
 
 @media (prefers-color-scheme: dark) {
-  body main {
+  body {
     background-color: rgb(130, 115, 101);
   }
   body h1 {

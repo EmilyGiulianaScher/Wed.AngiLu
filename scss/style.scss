@@ -1,5 +1,6 @@
 @import "reseteo", "carousel", "bienvenida", "botones", "imgb&n", "instagram", "comollegar", "regalos", "contador";
 
+$FuenteTitulos:'Cormorant Garamond', serif;
 
 
 body {
@@ -7,11 +8,16 @@ body {
 
   h1,
   h2 {
-    text-wrap: balance;
+    flex-wrap: balance;
+    font-family:$FuenteTitulos;
+    text-transform: uppercase;
   }
 
   p {
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Poppins', sans-serif ;
+    text-transform: uppercase;
+    line-height: 2em;
+   
   }
 }
 
@@ -19,12 +25,9 @@ body {
 
 @media (prefers-color-scheme: dark) {
   body {
-    main{
+
       background-color: rgb(130, 115, 101);
 
-    }
-
-    
     h1 {
       color: rgb(219, 216, 202);
     }

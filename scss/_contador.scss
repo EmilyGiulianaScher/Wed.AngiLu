@@ -5,7 +5,7 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background-color: rgb(203,187,174);
+    background-color: rgb(211,203,185);
 }
 .countdown{
     display: flex;
@@ -24,21 +24,21 @@
     height: 100px;
     width: 100px;
     border-radius: 50%;
-    color: #ffffffbe;
+    color: rgb(179,142,108);
     font-size: 2rem;
   
-    background-color: rgb(224,204,185);
+    background-color: rgb(235,233,222);
     margin-top: 15px;
     margin-bottom: 0;
-    font-family: 'Tenor Sans', sans-serif !important;
+    font-family: 'Poppins', sans-serif ;
 
 }
 span{
     display: block;
     text-align: center;
-    color: rgb(157,138,124);
+    color:  rgb(179, 142, 108);
     font-size: 1.5rem;
     font-weight: 400;
     padding-bottom: 5px;
-    font-family: 'Tenor Sans', sans-serif;
+    font-family: 'Cormorant Garamond', serif ;
 }
