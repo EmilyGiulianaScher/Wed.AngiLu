@@ -1,21 +1,45 @@
-@import "reseteo", "carousel", "bienvenida", "botones", "imgb&n", "instagram", "comollegar", "regalos","contador";
+@import "reseteo", "carousel", "bienvenida", "botones", "imgb&n", "instagram", "comollegar", "regalos", "contador";
 
 
 
 body {
   background-color: rgb(207, 189, 176);
 
-h1,h2{
-  text-wrap: balance;
-}
-  p{
+  h1,
+  h2 {
+    text-wrap: balance;
+  }
+
+  p {
     font-family: 'Nunito', sans-serif;
   }
 }
 
-@media (prefers-color-scheme: light) {
+
+
+@media (prefers-color-scheme: dark) {
   body {
-    background-color: rgb(245, 242, 239);
+
+    background-color: rgb(130, 115, 101);
+
+    h1 {
+      background-color: rgb(219, 216, 202);
+    }
+
+    h2 {
+      background-color: rgb(220, 214, 203);
+    }
+
+    p {
+      background-color: rgb(235, 233, 222);
+    }
+
+    button {
+      background-color: rgb(203, 187, 174);
+      color: rgb(130, 115, 101);
+    }
+
+
   }
 }
 

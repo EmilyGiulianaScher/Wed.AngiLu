@@ -7,12 +7,7 @@
     padding: 2rem 3rem;
     text-align: center;
     justify-content: center;
-    background-color: rgb(203, 187, 174);
     border-radius: 5px;
-    box-shadow: 6px 6px 9px rgba(0, 0, 0, 0.2);
-
-
-
     .parrafo1 {
         font-size: 1rem;
         margin-top: 15px;
@@ -52,16 +47,6 @@
         align-items: center;
 
     }
-
-    .botonC1 {
-        display: flex;
-        margin-top: 20px;
-        margin-bottom: 40px;
-        justify-content: center;
-        align-items: center;
-        border-style: none;
-    }
-
     .emoji {
         display: flex;
         font-size: 2.5rem;
@@ -106,11 +91,8 @@
     padding: 2rem 3rem;
     text-align: center;
     justify-content: center;
-    background-color: rgb(238, 232, 222);
     border-radius: 5px;
-    box-shadow: 6px 6px 9px rgba(0, 0, 0, 0.2);
-
-
+ 
     h2 {
         display: flex;
         font-size: 2rem;
@@ -128,16 +110,6 @@
         align-items: center;
 
     }
-
-    .botonC1 {
-        display: flex;
-        margin-top: 20px;
-        margin-bottom: 40px;
-        justify-content: center;
-        align-items: center;
-        border-style: none;
-    }
-
     .emoji {
         display: flex;
         font-size: 2.5rem;
@@ -157,9 +129,7 @@
     padding: 2rem 3rem;
     text-align: center;
     justify-content: center;
-    background-color: rgb(220, 214, 203);
     border-radius: 5px;
-    box-shadow: 6px 6px 9px rgba(0, 0, 0, 0.2);
 
 
     h2 {
@@ -179,16 +149,6 @@
         align-items: center;
 
     }
-
-    .botonC1 {
-        display: flex;
-        margin-top: 20px;
-        margin-bottom: 40px;
-        justify-content: center;
-        align-items: center;
-        border-style: none;
-    }
-
     .emoji {
         display: flex;
         font-size: 2.5rem;
@@ -216,11 +176,7 @@
     padding: 2rem 3rem;
     text-align: center;
     justify-content: center;
-    background-color: rgb(235, 233, 222);
     border-radius: 5px;
-    box-shadow: 6px 6px 9px rgba(0, 0, 0, 0.2);
-
-
     h2 {
         display: flex;
         font-size: 2rem;
@@ -238,16 +194,6 @@
         align-items: center;
 
     }
-
-    .botonC1 {
-        display: flex;
-        margin-top: 20px;
-        margin-bottom: 40px;
-        justify-content: center;
-        align-items: center;
-        border-style: none;
-    }
-
     .emoji {
         display: flex;
         font-size: 2.5rem;
@@ -267,10 +213,7 @@
     padding: 2rem 3rem;
     text-align: center;
     justify-content: center;
-    background-color: rgb(219, 216, 202);
     border-radius: 5px;
-    box-shadow: 6px 6px 9px rgba(0, 0, 0, 0.2);
-
 
     h2 {
         display: flex;
@@ -288,39 +231,6 @@
         justify-content: center;
         align-items: center;
 
-    }
-
-    .botonC1 {
-        display: block;
-        margin-top: 20px;
-        margin-bottom: 40px;
-        justify-content: center;
-        align-items: center;
-        border-style: none;
-        background-color: rgba(255, 255, 255, 0.538);
-        cursor: pointer;
-        transition: transform 1000ms;
-        padding: 1em 2em;
-        border-style: none;
-        box-shadow: 6px 6px 9px rgba(0, 0, 0, 0.2);
-        border-radius: 8px;
-        display: inline-block;
-
-        a {
-            text-decoration: none;
-            color: rgb(118, 71, 46);
-
-
-        }
-
-        &:hover,
-        &:focus-visible {
-            transform: translateY(-0.55rem);
-            transition: transform 500ms;
-            background-color: rgb(221, 173, 135);
-            color: rgb(118, 71, 46);
-
-        }
     }
 
     .emoji {
@@ -335,13 +245,6 @@
 }
 
 
-
-
-
-
-
-
-
 .contenedorC1-musica {
     margin-top: 20px;
     margin-right: 20px;
@@ -350,11 +253,7 @@
     padding: 2rem 3rem;
     text-align: center;
     justify-content: center;
-    background-color: rgb(211, 203, 185);
     border-radius: 5px;
-    box-shadow: 6px 6px 9px rgba(0, 0, 0, 0.2);
-
-
     h2 {
         display: flex;
         font-size: 2rem;
@@ -372,16 +271,6 @@
         align-items: center;
 
     }
-
-    .botonC1 {
-        display: flex;
-        margin-top: 20px;
-        margin-bottom: 40px;
-        justify-content: center;
-        align-items: center;
-        border-style: none;
-    }
-
     .emoji {
         display: flex;
         font-size: 2.5rem;
@@ -402,9 +291,7 @@
     padding: 2rem 3rem;
     text-align: center;
     justify-content: center;
-    background-color: rgb(203, 195, 183);
     border-radius: 5px;
-    box-shadow: 6px 6px 9px rgba(0, 0, 0, 0.2);
 
 
     h2 {
@@ -424,16 +311,6 @@
         align-items: center;
 
     }
-
-    .botonC1 {
-        display: flex;
-        margin-top: 20px;
-        margin-bottom: 40px;
-        justify-content: center;
-        align-items: center;
-        border-style: none;
-    }
-
     .emoji {
         display: flex;
         font-size: 2.5rem;
@@ -443,4 +320,15 @@
         animation-duration: 3s;
 
     }
+}
+
+#horizontal-line{
+    width :80%;
+    height: 1px;
+    border: 0 none;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 200px;
+    margin-bottom: 90px;
+    background-color: white;
 }

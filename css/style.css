@@ -117,9 +117,7 @@ html {
   padding: 2rem 3rem;
   text-align: center;
   justify-content: center;
-  background-color: rgb(203, 187, 174);
   border-radius: 5px;
-  box-shadow: 6px 6px 9px rgba(0, 0, 0, 0.2);
 }
 .contenedorC1 .parrafo1 {
   font-size: 1rem;
@@ -149,14 +147,6 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-.contenedorC1 .botonC1 {
-  display: flex;
-  margin-top: 20px;
-  margin-bottom: 40px;
-  justify-content: center;
-  align-items: center;
-  border-style: none;
 }
 .contenedorC1 .emoji {
   display: flex;
@@ -191,9 +181,7 @@ html {
   padding: 2rem 3rem;
   text-align: center;
   justify-content: center;
-  background-color: rgb(238, 232, 222);
   border-radius: 5px;
-  box-shadow: 6px 6px 9px rgba(0, 0, 0, 0.2);
 }
 .contenedorC1-CA h2 {
   display: flex;
@@ -207,14 +195,6 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-.contenedorC1-CA .botonC1 {
-  display: flex;
-  margin-top: 20px;
-  margin-bottom: 40px;
-  justify-content: center;
-  align-items: center;
-  border-style: none;
 }
 .contenedorC1-CA .emoji {
   display: flex;
@@ -232,9 +212,7 @@ html {
   padding: 2rem 3rem;
   text-align: center;
   justify-content: center;
-  background-color: rgb(220, 214, 203);
   border-radius: 5px;
-  box-shadow: 6px 6px 9px rgba(0, 0, 0, 0.2);
 }
 .contenedorC1-CB h2 {
   display: flex;
@@ -248,14 +226,6 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-.contenedorC1-CB .botonC1 {
-  display: flex;
-  margin-top: 20px;
-  margin-bottom: 40px;
-  justify-content: center;
-  align-items: center;
-  border-style: none;
 }
 .contenedorC1-CB .emoji {
   display: flex;
@@ -273,9 +243,7 @@ html {
   padding: 2rem 3rem;
   text-align: center;
   justify-content: center;
-  background-color: rgb(235, 233, 222);
   border-radius: 5px;
-  box-shadow: 6px 6px 9px rgba(0, 0, 0, 0.2);
 }
 .contenedorC1-asistencia h2 {
   display: flex;
@@ -289,14 +257,6 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-.contenedorC1-asistencia .botonC1 {
-  display: flex;
-  margin-top: 20px;
-  margin-bottom: 40px;
-  justify-content: center;
-  align-items: center;
-  border-style: none;
 }
 .contenedorC1-asistencia .emoji {
   display: flex;
@@ -314,9 +274,7 @@ html {
   padding: 2rem 3rem;
   text-align: center;
   justify-content: center;
-  background-color: rgb(219, 216, 202);
   border-radius: 5px;
-  box-shadow: 6px 6px 9px rgba(0, 0, 0, 0.2);
 }
 .contenedorC1-regalos h2 {
   display: flex;
@@ -330,32 +288,6 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-.contenedorC1-regalos .botonC1 {
-  display: block;
-  margin-top: 20px;
-  margin-bottom: 40px;
-  justify-content: center;
-  align-items: center;
-  border-style: none;
-  background-color: rgba(255, 255, 255, 0.538);
-  cursor: pointer;
-  transition: transform 1000ms;
-  padding: 1em 2em;
-  border-style: none;
-  box-shadow: 6px 6px 9px rgba(0, 0, 0, 0.2);
-  border-radius: 8px;
-  display: inline-block;
-}
-.contenedorC1-regalos .botonC1 a {
-  text-decoration: none;
-  color: rgb(118, 71, 46);
-}
-.contenedorC1-regalos .botonC1:hover, .contenedorC1-regalos .botonC1:focus-visible {
-  transform: translateY(-0.55rem);
-  transition: transform 500ms;
-  background-color: rgb(221, 173, 135);
-  color: rgb(118, 71, 46);
 }
 .contenedorC1-regalos .emoji {
   display: flex;
@@ -373,9 +305,7 @@ html {
   padding: 2rem 3rem;
   text-align: center;
   justify-content: center;
-  background-color: rgb(211, 203, 185);
   border-radius: 5px;
-  box-shadow: 6px 6px 9px rgba(0, 0, 0, 0.2);
 }
 .contenedorC1-musica h2 {
   display: flex;
@@ -389,14 +319,6 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-.contenedorC1-musica .botonC1 {
-  display: flex;
-  margin-top: 20px;
-  margin-bottom: 40px;
-  justify-content: center;
-  align-items: center;
-  border-style: none;
 }
 .contenedorC1-musica .emoji {
   display: flex;
@@ -414,9 +336,7 @@ html {
   padding: 2rem 3rem;
   text-align: center;
   justify-content: center;
-  background-color: rgb(203, 195, 183);
   border-radius: 5px;
-  box-shadow: 6px 6px 9px rgba(0, 0, 0, 0.2);
 }
 .contenedorC1-instagram h2 {
   display: flex;
@@ -431,14 +351,6 @@ html {
   justify-content: center;
   align-items: center;
 }
-.contenedorC1-instagram .botonC1 {
-  display: flex;
-  margin-top: 20px;
-  margin-bottom: 40px;
-  justify-content: center;
-  align-items: center;
-  border-style: none;
-}
 .contenedorC1-instagram .emoji {
   display: flex;
   font-size: 2.5rem;
@@ -447,23 +359,38 @@ html {
   animation-duration: 3s;
 }
 
-button {
+#horizontal-line {
+  width: 80%;
+  height: 1px;
+  border: 0 none;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 200px;
+  margin-bottom: 90px;
+  background-color: white;
+}
+
+a {
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  justify-content: center;
+  align-items: center;
+  border-style: none;
   background-color: rgba(255, 255, 255, 0.538);
   cursor: pointer;
   transition: transform 1000ms;
   padding: 1em 2em;
-  border-style: none;
   box-shadow: 6px 6px 9px rgba(0, 0, 0, 0.2);
   border-radius: 8px;
+  display: inline-block;
+  text-decoration: none !important;
+  color: rgb(118, 71, 46);
 }
-button:hover, button:focus-visible {
+a:hover, a:focus-visible {
   transform: translateY(-0.55rem);
   transition: transform 500ms;
   background-color: rgb(221, 173, 135);
-  color: rgb(118, 71, 46);
-}
-button a {
-  text-decoration: none;
   color: rgb(118, 71, 46);
 }
 
@@ -698,16 +625,30 @@ span {
 body {
   background-color: rgb(207, 189, 176);
 }
-body h1, body h2 {
+body h1,
+body h2 {
   text-wrap: balance;
 }
 body p {
   font-family: "Nunito", sans-serif;
 }
 
-@media (prefers-color-scheme: light) {
+@media (prefers-color-scheme: dark) {
   body {
-    background-color: rgb(245, 242, 239);
+    background-color: rgb(130, 115, 101);
+  }
+  body h1 {
+    background-color: rgb(219, 216, 202);
+  }
+  body h2 {
+    background-color: rgb(220, 214, 203);
+  }
+  body p {
+    background-color: rgb(235, 233, 222);
+  }
+  body button {
+    background-color: rgb(203, 187, 174);
+    color: rgb(130, 115, 101);
   }
 }
 @media (max-width: 800px) {
