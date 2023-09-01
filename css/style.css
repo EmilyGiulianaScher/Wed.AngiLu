@@ -347,7 +347,7 @@ html {
   background-position: center 30%;
 }
 .contenedorC1-instagram .ig {
-  background-color: rgba(255, 255, 255, 0.538);
+  background-color: rgba(255, 255, 255, 0.564);
   border-radius: 8px;
   box-shadow: 6px 6px 9px rgba(0, 0, 0, 0.2);
 }
@@ -641,7 +641,7 @@ body {
 }
 body h1,
 body h2 {
-  flex-wrap: balance;
+  text-wrap: balance;
   font-family: "Cormorant Garamond", serif;
   text-transform: uppercase;
 }
