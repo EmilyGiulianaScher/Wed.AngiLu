@@ -337,6 +337,15 @@ html {
   text-align: center;
   justify-content: center;
   border-radius: 5px;
+  background-image: url(../imagenes/pexels-photo-3171770.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center 30%;
+}
+.contenedorC1-instagram .ig {
+  background-color: rgba(255, 255, 255, 0.538);
+  border-radius: 8px;
+  box-shadow: 6px 6px 9px rgba(0, 0, 0, 0.2);
 }
 .contenedorC1-instagram h2 {
   display: flex;
@@ -365,7 +374,7 @@ html {
   border: 0 none;
   margin-right: auto;
   margin-left: auto;
-  margin-top: 200px;
+  margin-top: 20px;
   margin-bottom: 90px;
   background-color: white;
 }
@@ -623,7 +632,7 @@ span {
 }
 
 body {
-  background-color: rgb(207, 189, 176);
+  background-color: rgb(235, 233, 222);
 }
 body h1,
 body h2 {
@@ -634,17 +643,17 @@ body p {
 }
 
 @media (prefers-color-scheme: dark) {
-  body {
+  body main {
     background-color: rgb(130, 115, 101);
   }
   body h1 {
-    background-color: rgb(219, 216, 202);
+    color: rgb(219, 216, 202);
   }
   body h2 {
-    background-color: rgb(220, 214, 203);
+    color: rgb(220, 214, 203);
   }
   body p {
-    background-color: rgb(235, 233, 222);
+    color: rgb(235, 233, 222);
   }
   body button {
     background-color: rgb(203, 187, 174);
