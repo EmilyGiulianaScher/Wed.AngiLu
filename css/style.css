@@ -289,11 +289,6 @@ html {
   margin-top: 15px;
   margin-bottom: 15px;
 }
-.contenedorC1-regalos p {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 .contenedorC1-regalos .emoji {
   display: flex;
   font-size: 2.5rem;
@@ -509,8 +504,8 @@ body {
   max-width: 600px;
   max-height: 90%;
   background-color: #fff;
-  border-radius: 6px;
-  padding: 3em 2.5em;
+  border-radius: 7px;
+  padding: 2em 1.5em;
   display: grid;
   gap: 1em;
   place-items: center;
@@ -518,6 +513,8 @@ body {
   transform: var(--transform);
   transition: var(--transition);
   box-shadow: 6px 6px 9px rgba(0, 0, 0, 0.2);
+  max-height: calc(90% - 2em);
+  overflow-y: auto;
 }
 
 .modal-arg {
@@ -534,10 +531,15 @@ body {
   background-repeat: no-repeat;
   width: 100% !important;
   padding-top: 30px;
-  padding-right: 30px;
+  padding-right: 10px;
   padding-bottom: 30px;
-  padding-left: 30px;
+  padding-left: 10px;
   margin: 0 !important;
+}
+.modal-arg p {
+  font-size: 0.8rem !important;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
 }
 
 .modal-aus {
@@ -555,27 +557,32 @@ body {
   background-repeat: no-repeat;
   width: 100% !important;
   border-color: #dbdbdb;
-  padding-top: 30px;
-  padding-right: 30px;
-  padding-bottom: 30px;
-  padding-left: 30px;
+  padding: 30px 15px 30px 15px;
   border-top-width: 1px;
   border-left-width: 0px;
   margin: 0 !important;
   margin-right: 0 !important;
 }
+.modal-aus p {
+  font-size: 0.8rem !important;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+}
 
 .modal-title {
-  font-size: 1.5rem;
+  font-size: 1.5rem !important;
   color: rgb(221, 173, 135);
+  margin-bottom: 7px;
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 800;
 }
 
 .modal-sub {
-  font-size: 1.2rem;
-}
-
-.modal.cbu {
+  font-size: 1rem !important;
   margin-bottom: 10px;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
 }
 
 .modal-close {
@@ -589,6 +596,7 @@ body {
   box-shadow: 6px 6px 9px rgba(0, 0, 0, 0.2);
   box-sizing: border-box;
   margin-top: 30px;
+  margin-bottom: 15px;
   align-items: center;
   justify-content: center;
 }
