@@ -675,6 +675,12 @@ body p {
   body .textoIg {
     color: black;
   }
+  body .modal-sub {
+    color: black;
+  }
+  body .modal-cbu {
+    color: black;
+  }
 }
 @media (max-width: 800px) {
   .modal-container {
