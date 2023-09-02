@@ -18,32 +18,29 @@ closeModal.addEventListener('click', (e)=>{
 
 
 /* JS DEL TEMPORIZADOR NO TOCAR*/
-
 const $days = document.getElementById('days'),
-$hours = document.getElementById('hours'),
-$minutes = document.getElementById('minutes'),
-$seconds = document.getElementById('seconds');
+  $hours = document.getElementById('hours'),
+  $minutes = document.getElementById('minutes'),
+  $seconds = document.getElementById('seconds');
 
-//Fecha a futuro
-const countdownDate = new Date('12 15, 2023 17:00:00').getTime();
+const countdownDate = new Date('December 15, 2023 17:00:00').getTime();
 
-let interval = setInterval(function(){
-    //Obtener fecha actual y milisegundos
-    const now = new Date().getTime();
+let interval = setInterval(function () {
+  const now = new Date().getTime();
+  const distance = countdownDate - now;
 
-    //Obtener las distancias entre ambas fechas
-    let distance = countdownDate - now;
-
-    //Calculos a dias-horas-minutos-segundos
+  if (distance >= 0) {
     let days = Math.floor(distance / (1000 * 60 * 60 * 24));
-    let hours = Math.floor((distance % (1000 * 60 * 60 * 24 )) / (1000 * 60 * 60));
+    let hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
     let minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-    let seconds = Math.floor((distance % (1000 * 60 )) / (1000));
+    let seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
-    //Escribimos resultados
     $days.innerHTML = days;
     $hours.innerHTML = hours;
     $minutes.innerHTML = minutes;
     $seconds.innerHTML = ('0' + seconds).slice(-2);
-
+  } else {
+    // Puedes hacer algo cuando la cuenta regresiva ha terminado, por ejemplo, detener el intervalo.
+    clearInterval(interval);
+  }
 }, 1000);

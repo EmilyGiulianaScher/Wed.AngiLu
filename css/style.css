@@ -1,4 +1,3 @@
-@charset "UTF-8";
 *,
 *::before,
 *::after {
@@ -39,11 +38,10 @@ html {
 .owl-carousel {
   width: 100%;
   overflow: hidden;
-  /* ... (el resto de tu código) ... */
 }
 .owl-carousel .slide {
   width: 100%;
-  height: 100vh; /* Ajustar la altura */
+  height: 100vh;
   position: relative;
   background-size: cover;
   background-repeat: no-repeat;
@@ -90,7 +88,6 @@ html {
   padding: 10px;
   box-sizing: border-box;
   color: #fff;
-  /* Agrega estilos para el segundo h1 */
 }
 .slide-content .titulocarro {
   font-size: 2.8rem;
@@ -102,13 +99,17 @@ html {
   font-size: 2rem;
   text-align: center;
   margin-top: 4%;
-  text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.8);
+  text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.9);
 }
 .slide-content h1:last-child {
   font-size: 1.2rem;
   font-weight: 400;
   text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.8);
   margin-bottom: 5%;
+}
+
+.carroEpaciado {
+  letter-spacing: 10px;
 }
 
 .contenedorC1 {
