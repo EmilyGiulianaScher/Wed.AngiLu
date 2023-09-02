@@ -8,7 +8,8 @@ body {
 
   h1,
   h2 {
-    text-wrap: balance;
+ 
+   
     font-family:$FuenteTitulos;
     text-transform: uppercase;
   }
@@ -17,6 +18,7 @@ body {
     font-family: 'Poppins', sans-serif ;
     text-transform: uppercase;
     line-height: 2em;
+    font-size: 1rem;
    
   }
 }
@@ -45,6 +47,10 @@ body {
       color: rgb(130, 115, 101);
     }
 
+    .textoIg{
+      color: black;
+    }
+
 
   }
 }
@@ -58,5 +64,8 @@ body {
 
   .modal-title {
     font-size: 2rem;
+  }
+  h2{
+    font-size: 1rem;
   }
 }
